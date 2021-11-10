@@ -17,11 +17,11 @@ A number having both of these properties, being a perfect square and equal to th
 * Only one class is needed (with a `main` method and the method `printMagicSquares`, no constructor needed), where the `printMagicSquares` method prints the first n magic squares (see the specifications for the method below).
 
 ```
-    // pre: n > 0
-    // post: the first n magic squares have been printed 
-    //      (with squared number and integer sum indicated)
-    //      Ex: 36 (1 to 8)
-    public static void printMagicSquares(int n)
+// pre: n > 0
+// post: the first n magic squares have been printed 
+//      (with squared number and integer sum indicated)
+//      Ex: 36 (1 to 8)
+public static void printMagicSquares(int n)
 ```
 
 * You should only be checking positive integers, so have your program reject invalid inputs.
@@ -40,27 +40,27 @@ A number having both of these properties, being a perfect square and equal to th
 
 ```
 Print the first n magic squares: 4
-1 (1 to 1)
-36 (1 to 8)
-1225 (1 to 49)
-41616 (1 to 288)
+#1:  1 (1 to 1)
+#2:  36 (1 to 8)
+#3:  1225 (1 to 49)
+#4:  41616 (1 to 288)
 ```
 
 ```
 Print the first n magic squares: 13
-1 (1 to 1)
-36 (1 to 8)
-1225 (1 to 49)
-41616 (1 to 288)
-1413721 (1 to 1681)
-48024900 (1 to 9800)
-1631432881 (1 to 57121)
-55420693056 (1 to 332928)
-1882672131025 (1 to 1940449)
-63955431761796 (1 to 11309768)
-2172602007770041 (1 to 65918161)
-73804512832419600 (1 to 384199200)
-2507180834294496361 (1 to 2239277041)
+#1:  1 (1 to 1)
+#2:  36 (1 to 8)
+#3:  1225 (1 to 49)
+#4:  41616 (1 to 288)
+#5:  1413721 (1 to 1681)
+#6:  48024900 (1 to 9800)
+#7:  1631432881 (1 to 57121)
+#8:  55420693056 (1 to 332928)
+#9:  1882672131025 (1 to 1940449)
+#10: 63955431761796 (1 to 11309768)
+#11: 2172602007770041 (1 to 65918161)
+#12: 73804512832419600 (1 to 384199200)
+#13: 2507180834294496361 (1 to 2239277041)
 ```
 
 ### Grading
